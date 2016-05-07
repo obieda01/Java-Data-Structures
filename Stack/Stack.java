@@ -9,6 +9,7 @@ import java.util.NoSuchElementException;
  * @param <Type> generic type of the stack item
  */
 
+
 public class Stack<Type> implements Iterable<Type> {
 	private int size;
 	private SListNode<Type> head;
