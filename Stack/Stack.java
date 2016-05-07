@@ -37,6 +37,7 @@ public class Stack<Type> implements Iterable<Type> {
 		return size==0;
 	}
 	
+	
 	public Type push(Type item) {
 		SListNode<Type> newHead = new SListNode<>(item);
 		newHead.next = head;
