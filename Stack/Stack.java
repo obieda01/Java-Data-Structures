@@ -10,7 +10,6 @@ import java.util.NoSuchElementException;
  */
  
 
-
 public class Stack<Type> implements Iterable<Type> {
 	private int size;
 	private SListNode<Type> head;
